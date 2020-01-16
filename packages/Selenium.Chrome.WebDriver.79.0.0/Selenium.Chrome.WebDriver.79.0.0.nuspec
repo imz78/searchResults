@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Selenium.Chrome.WebDriver</id>
+    <version>79.0.0</version>
+    <title>Selenium.Chrome.WebDriver</title>
+    <authors>jbaranda</authors>
+    <owners>jbaranda</owners>
+    <licenseUrl>https://www.nuget.org/packages/Selenium.Chrome.WebDriver/79.0.0/license</licenseUrl>
+    <projectUrl>https://github.com/jbaranda/nupkg-selenium-webdrivers</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Repurposed nuget package of Selenium.WebDriver.ChromeDriver (packing process differs slightly)
+	Install Chrome Driver(Win32) for Selenium WebDriver into your Unit Test Project.
+	"chromedriver.exe" is copied to bin folder from package folder when the build process.
+	NuGet package restoring ready, and no need to commit "chromedriver.exe" binary into source code control repository.</description>
+    <summary>Selenium Chrome WebDriver (Win32)</summary>
+    <releaseNotes>v79.0.3945.36 - Chrome Driver 79.0.3945.36 release - https://chromedriver.storage.googleapis.com/index.html?path=79.0.3945.36/</releaseNotes>
+    <language>en-US</language>
+    <tags>Selenium WebDriver Chrome</tags>
+  </metadata>
+</package>
